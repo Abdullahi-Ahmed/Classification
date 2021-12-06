@@ -17,4 +17,19 @@ For those who are finding hard to grasp don't worry I will walk you though this 
 2. Understand the problem statement
 3. Data preprocessing
 4. Modeling
-5. Performance metrics
+5. Performance metrics  
+   
+##### Downloading the data
+click Healthcare - Diabetes.zip file then click download button on the far right, incase for some reason you can't download click view raw.  
+  
+##### Understanding the problem statement
+To make it easy for you it's classification problem.  
+How did i know it? it's very simply, whenever you're working on a data that has a class or label and you're acquired to use that class to predict then that's a classification problem. popular examples are spam detection, fraud detection, customer churn prediction and many more.  
+There two types of Classification problem;
+                                          1. Binary classification - it's when you have only two class to predict i.e predicting if someone is Short or Tall 
+                                          2. Multi- class - it's when you have more than two class to predict i.e predicting  if someone is Short, Medium or Tall.
+###### Look Out For.
+In some cases people confuse classification problem with clustering problem, To differentiate is two problem is simply if you label clusters into a column then it's classification problem. Clustering algorithm is sometimes used as feature engineering. a good blog to look into https://towardsdatascience.com/cluster-then-predict-for-classification-tasks-142fdfdc87d6
+
+##### Data preprocessing
+I think you heard this term couple of times which means to prepare your data for predictions
