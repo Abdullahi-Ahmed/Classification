@@ -34,29 +34,38 @@ In some cases people confuse classification problem with clustering problem, Clu
 Data Preprocessing is a Data Mining technique that involves transforming raw data into an understandable format According to Techopedia.  
 In this repo I will only focus on Missing data and how to solve it but in real cases data is always dirt and will take almost 40% cleaning the data.  
 First things first, Check if we have missing values?  
-<img width="466" alt="Screenshot 2021-12-06 204029" src="https://user-images.githubusercontent.com/85021780/144905039-a64d277d-2198-43df-a678-ef23eee154ac.png">
-As you can see we don't have missing values 
-<img width="593" alt="Screenshot 2021-12-06 204731" src="https://user-images.githubusercontent.com/85021780/144905468-e296aa64-9820-45dd-ba14-4182310ba46d.png">
 
+<img width="466" alt="Screenshot 2021-12-06 204029" src="https://user-images.githubusercontent.com/85021780/144905039-a64d277d-2198-43df-a678-ef23eee154ac.png">  
+As you can see we don't have missing values  
+
+<img width="593" alt="Screenshot 2021-12-06 204731" src="https://user-images.githubusercontent.com/85021780/144905468-e296aa64-9820-45dd-ba14-4182310ba46d.png">  
 but that we do have Zeros in Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI columns and we know that Glucose level can never be zero or Blood pressure be zero thus the data is corrupted.  
-Let's replace zero values to the average value of that column (i.e we replace zeros in Glucose column with it's average which is 120.89453125 and do the same) I won't advice this in case the zero values are alot. You can also drop the raws that have zero values instead.
+Let's replace zero values to the average value of that column (i.e we replace zeros in Glucose column with it's average which is 120.89453125 and do the same) I won't advice this in case the zero values are alot. You can also drop the raws that have zero values instead.  
 <img width="673" alt="Screenshot 2021-12-06 204052" src="https://user-images.githubusercontent.com/85021780/144905284-23bee376-ae80-42e2-973e-e998decf62d6.png">  
+
   
     
-It's Always important to Check if our dataset is balanced.
-<img width="542" alt="Screenshot 2021-12-06 204142" src="https://user-images.githubusercontent.com/85021780/144905763-c0a5a3fb-85fb-4a17-ba83-210bd836e7da.png">
-<img width="382" alt="Screenshot 2021-12-06 204219" src="https://user-images.githubusercontent.com/85021780/144905814-5d648596-03a6-4ce5-b54c-0a009014dc59.png">
+It's Always important to Check if our dataset is balanced.  
+
+<img width="542" alt="Screenshot 2021-12-06 204142" src="https://user-images.githubusercontent.com/85021780/144905763-c0a5a3fb-85fb-4a17-ba83-210bd836e7da.png">  
+
+<img width="382" alt="Screenshot 2021-12-06 204219" src="https://user-images.githubusercontent.com/85021780/144905814-5d648596-03a6-4ce5-b54c-0a009014dc59.png">  
+
 
 
 ##### Model
 In most cases you don't know which Algorithm can produce the best result and you constantly compare Algorithm while monitoring underfitting & overfitting. This field have advanced that in big project we use AutoML technology to help us identify the optimal Algorithm to use. We also use hyper-parameter tunning to further improve our score after identifying an Algorithm. Check out my https://github.com/Abdullahi-Ahmed/Random_Search README.  
-We are randomly taking four different Algorithm and use the best score Algorithm:
-<img width="659" alt="Screenshot 2021-12-06 211117" src="https://user-images.githubusercontent.com/85021780/144905933-878f3dc5-bfad-401d-a06f-bb2300361d08.png">
-<img width="611" alt="Screenshot 2021-12-06 211150" src="https://user-images.githubusercontent.com/85021780/144905982-1ad14232-8221-4002-a661-a2a9dab15198.png">
+We are randomly taking four different Algorithm and use the best score Algorithm:  
+
+<img width="659" alt="Screenshot 2021-12-06 211117" src="https://user-images.githubusercontent.com/85021780/144905933-878f3dc5-bfad-401d-a06f-bb2300361d08.png">  
+
+<img width="611" alt="Screenshot 2021-12-06 211150" src="https://user-images.githubusercontent.com/85021780/144905982-1ad14232-8221-4002-a661-a2a9dab15198.png">  
+
 
 
 ##### Performance Metrics 
-<img width="456" alt="Screenshot 2021-12-06 211328" src="https://user-images.githubusercontent.com/85021780/144906025-fa173e90-0c76-46bf-99c5-89190f2dd8cf.png">
+<img width="456" alt="Screenshot 2021-12-06 211328" src="https://user-images.githubusercontent.com/85021780/144906025-fa173e90-0c76-46bf-99c5-89190f2dd8cf.png">  
+
 
 It's Very important to use the most appropriate performance metrics.  
 What is  Performance metrics? it's a measure or result to judge if Algorithm is worth production. there are Alot of Performance Metrics in classification use case i.e
