@@ -33,6 +33,7 @@ In some cases people confuse classification problem with clustering problem, Clu
 Data Preprocessing is a Data Mining technique that involves transforming raw data into an understandable format According to Techopedia.  
 In this repo I will only focus on Missing data and how to solve it but in real cases data is always dirt and will take almost 40% cleaning the data.  
 First things first, Check if we have missing values?
+![image](/Classification/images/Screenshot 2021-12-06 204029.jpg?raw=true "Optional Title")
 
 
 
