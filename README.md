@@ -23,7 +23,8 @@ click Healthcare - Diabetes.zip file then click download button on the far right
 ##### Understanding the problem statement
 To make it easy for you it's classification problem.  
 How did i know it? it's very simply, whenever you're working on a data that has a class or label and you're acquired to use that class to predict then that's a classification problem. popular examples are spam detection, fraud detection, customer churn prediction and many more.  
-There two types of Classification problem;
+There two types of Classification problem;  
+
                                           1. Binary classification - it's when you have only two class to predict i.e predicting if someone is Short or Tall 
                                           2. Multi- class - it's when you have more than two class to predict i.e predicting  if someone is Short, Medium or Tall.
 ###### Look Out For.
@@ -33,7 +34,7 @@ In some cases people confuse classification problem with clustering problem, Clu
 Data Preprocessing is a Data Mining technique that involves transforming raw data into an understandable format According to Techopedia.  
 In this repo I will only focus on Missing data and how to solve it but in real cases data is always dirt and will take almost 40% cleaning the data.  
 First things first, Check if we have missing values?
-![image](/Classification/images/Screenshot 2021-12-06 204029.jpg?raw=true "Optional Title")
+![image](/relative//Classification/images/to/Screenshot 2021-12-06 204029.jpg?raw=true "Optional Title")
 
 
 
