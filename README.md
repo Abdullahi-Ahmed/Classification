@@ -34,10 +34,7 @@ In some cases people confuse classification problem with clustering problem, Clu
 Data Preprocessing is a Data Mining technique that involves transforming raw data into an understandable format According to Techopedia.  
 In this repo I will only focus on Missing data and how to solve it but in real cases data is always dirt and will take almost 40% cleaning the data.  
 First things first, Check if we have missing values?  
-![image](/relative/Classification/images/to/Screenshot 2021-12-06 204029.jpg?raw=true "Optional Title")
-
-
-
+<img width="466" alt="Screenshot 2021-12-06 204029" src="https://user-images.githubusercontent.com/85021780/144905039-a64d277d-2198-43df-a678-ef23eee154ac.png">
 
 
 as you can see we don't have missing values but that we do have Zeros in Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI columns and we know that Glucose level can never be zero or Blood pressure be zero thus the data is corrupted.  
