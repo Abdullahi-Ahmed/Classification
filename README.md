@@ -6,9 +6,7 @@ Classification problem is when you are trying to predict a class or label in a g
 A good example of Classification problem is this repo. the provided data has columns and there's an important column labelled "outcome" thats the column we're trying to predict
 
 ### Real Life Problem
-is many cases the client you're working for or the project you're working on expect you to label the columns and identify the problem statement on your own.  
-I know many Love advice will say follow your heart and don't let you head get in the way, well this is the opposite.  
-But don't worry when a client expect you to define the problem statement you've already above the data science label and it will be a piece of cake.  
+is many cases the client you're working for or the project you're working on expect you to label the columns and identify the problem statement on your own. I know many Love advice will say follow your heart and don't let you head get in the way, well this is the opposite. But don't worry when a client expect you to define the problem statement you've already above the data science ladder and it will be a piece of cake.  
 For those who are finding hard to grasp don't worry I will walk you though this repo.
 
 ## This Repo
@@ -29,7 +27,10 @@ There two types of Classification problem;
                                           1. Binary classification - it's when you have only two class to predict i.e predicting if someone is Short or Tall 
                                           2. Multi- class - it's when you have more than two class to predict i.e predicting  if someone is Short, Medium or Tall.
 ###### Look Out For.
-In some cases people confuse classification problem with clustering problem, To differentiate is two problem is simply if you label clusters into a column then it's classification problem. Clustering algorithm is sometimes used as feature engineering. a good blog to look into https://towardsdatascience.com/cluster-then-predict-for-classification-tasks-142fdfdc87d6
+In some cases people confuse classification problem with clustering problem, Clustering problem may look similar to classification problem but if the data in hand doesn't label the value you want to predict then it's not classification use case. Clustering algorithm is sometimes used as feature engineering for classification use cases. a good blog to look into https://towardsdatascience.com/cluster-then-predict-for-classification-tasks-142fdfdc87d6
 
 ##### Data preprocessing
-I think you heard this term couple of times which means to prepare your data for predictions
+Data Preprocessing is a Data Mining technique that involves transforming raw data into an understandable format According to Techopedia.  
+In this repo for 
+
+![](Screenshot 2021-12-06 203420.png)
