@@ -31,6 +31,63 @@ In some cases people confuse classification problem with clustering problem, Clu
 
 ##### Data preprocessing
 Data Preprocessing is a Data Mining technique that involves transforming raw data into an understandable format According to Techopedia.  
-In this repo for 
+In this repo I will only focus on Missing data and how to solve it but in real cases data is always dirt and will take almost 40% cleaning the data.  
+First things first, Check if we have missing values?
 
-![](Screenshot 2021-12-06 203420.png)
+
+
+
+
+as you can see we don't have missing values but that we do have Zeros in Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI columns and we know that Glucose level can never be zero or Blood pressure be zero thus the data is corrupted.  
+Let's replace zero values to the average value of that column (i.e we replace zeros in Glucose column with it's average which is 120.89453125 and do the same) I won't advice this in case the zero values are alot.  
+You can also drop the raws that have zero values instead.
+
+
+
+
+
+It's Always important to Check if our dataset is balanced.
+
+
+
+
+
+
+
+
+
+
+##### Model
+In most cases you don't know which Algorithm can produce the best result and you constantly compare Algorithm while monitoring underfitting & overfitting. This field have advanced that in big project we use AutoML technology to help us identify the optimal Algorithm to use. We also use hyper-parameter tunning to further improve our score after identifying an Algorithm. Check out my https://github.com/Abdullahi-Ahmed/Random_Search README.  
+We are randomly taking four different Algorithm and use the best score Algorithm:
+
+
+
+
+
+
+
+
+##### Performance Metrics 
+It's Very important to use the most appropriate performance metrics.  
+What is  Performance metrics? it's a measure or result to judge if Algorithm is worth production. there are Alot of Performance Metrics in classification use case i.e
+1. Confusion Metrics
+2. FPR 
+3. Recall 
+4. Percision
+5. Accurancy
+6. F.beta
+7. Cohen kappa  
+
+
+I will end this read me with a story and question  
+Imagine you have 10 people's heights which 9 of the them are tall and only one is short. If you use accurancy you will get 90% score  
+Is this the best Metric to judge your Algorithm result?  
+maybe you didn't get where am heading...  
+in our case which metrics is important to focus,  
+Predicting a healthy person to have diabetes or  
+Predicting a diabetic person to be healthy
+
+#### Will help you answer this in my next repo.
+
+
